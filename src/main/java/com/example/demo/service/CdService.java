@@ -55,5 +55,9 @@ public class CdService {
 	public List<Cd> getByArtistandReleaseYear(String artist, Integer year_released){
 		return this.repo.findCarByArtistandReleaseYear(artist, year_released);
 	}
+	
+	public List<Cd> getCdByArtist(String artist){
+		return this.repo.findCdByArtist(artist);
+	}
 }
 

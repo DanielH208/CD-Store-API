@@ -61,6 +61,11 @@ private CdService service;
     @GetMapping("/{artist}/{year_released}")
     public ResponseEntity<List<Cd>> getByArtistandReleaseYear(@PathVariable String artist, @PathVariable Integer year_released){
     	return new ResponseEntity<List<Cd>>(this.service.getByArtistandReleaseYear(artist,year_released), HttpStatus.OK);
+    } 
+    
+    @GetMapping("artist/{artist}")
+    public ResponseEntity<List<Cd>> getCdByArtist(@PathVariable String artist){
+    	return new ResponseEntity<List<Cd>>(this.service.getCdByArtist(artist), HttpStatus.OK);
     }
 	
 	

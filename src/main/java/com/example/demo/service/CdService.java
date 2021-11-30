@@ -16,4 +16,15 @@ public class CdService {
 	public CdService(CdRepo repo) {
 		this.repo = repo;
 	}
+	
+	public List<Cd> getAllCds() {
+		return this.repo.findAll();
+	}
+	
+	public Cd createCd(Cd cd) {
+		return this.repo.save(cd);
+	}
+	
+	
+	
 }

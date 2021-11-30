@@ -52,6 +52,11 @@ private CdService service;
     	ResponseEntity<Cd> response = new ResponseEntity<Cd>(this.service.updateCd(cd, id), HttpStatus.ACCEPTED); //202
     	return response;
     }
+    
+    @GetMapping("/{id}")
+    public ResponseEntity<Optional<Cd>> getById(@PathVariable Integer id){
+    	return new ResponseEntity<Optional<Cd>>(this.service.getById(id), HttpStatus.OK);
+    }
 	
 	
 }

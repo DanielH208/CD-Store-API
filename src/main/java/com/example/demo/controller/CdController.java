@@ -36,6 +36,16 @@ private CdService service;
     	ResponseEntity<Cd> response = new ResponseEntity<Cd>(this.service.createCd(cd), HttpStatus.CREATED); //201
     	return response;
     }
+    
+    @DeleteMapping("/delete/{id}") 
+    public ResponseEntity<?> deleteCd(@PathVariable Integer id){
+    	boolean deleted = this.service.deleteCd(id);
+    	if(deleted) {
+    		return new ResponseEntity<>(HttpStatus.OK);
+    	} else {
+    		return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+    	}
+    }
 	
 	
 }

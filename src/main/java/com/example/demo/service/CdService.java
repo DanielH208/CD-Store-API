@@ -25,6 +25,13 @@ public class CdService {
 		return this.repo.save(cd);
 	}
 	
+	public boolean deleteCd(Integer id) {
+		this.repo.deleteById(id);
+		// 							false
+		boolean exists = this.repo.existsById(id);
+		// flips to true for logical sense
+		return !exists;
+	}
 	
 	
 }

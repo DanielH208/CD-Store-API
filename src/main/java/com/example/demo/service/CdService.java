@@ -52,5 +52,8 @@ public class CdService {
 		return foundCar;
 	}
 	
+	public List<Cd> getByArtistandReleaseYear(String artist, Integer year_released){
+		return this.repo.findCarByArtistandReleaseYear(artist, year_released);
+	}
 }
 

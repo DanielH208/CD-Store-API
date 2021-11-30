@@ -18,12 +18,12 @@ public class Cd {
     private String genre;
     private Double price;
 
-    
+     
     
     public Cd() {
     }
 
-
+ 
 
 	public Cd(Integer id, String cd_name, Integer year_released, String artist, String genre, Double price) {
 		super();
@@ -35,7 +35,7 @@ public class Cd {
 		this.price = price;
 	}
 
-
+ 
 
 	public Integer getId() {
 		return id;

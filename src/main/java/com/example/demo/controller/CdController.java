@@ -16,7 +16,7 @@ import com.example.demo.data.Cd;
 import com.example.demo.service.CdService;
 
 @RestController // allows us to send JSON data back, or other forms of data medium, indicates this is a component/bean to the AppContext
-@RequestMapping(path = "/car")
+@RequestMapping(path = "/cd")
 public class CdController {
 
 private CdService service;
@@ -24,4 +24,18 @@ private CdService service;
 	public CdController(CdService service ) {
 		this.service = service;
 	}
+	
+    @GetMapping("/getAll")
+    public ResponseEntity<List<Cd>> get() {
+        ResponseEntity<List<Cd>> response = new ResponseEntity<List<Cd>>(this.service.getAllCds(), HttpStatus.OK); //200
+        return response;
+    }
+	
+    @PostMapping("/create")
+    public ResponseEntity<Cd> addCar(@RequestBody Cd cd){
+    	ResponseEntity<Cd> response = new ResponseEntity<Cd>(this.service.createCd(cd), HttpStatus.CREATED); //201
+    	return response;
+    }
+	
+	
 }

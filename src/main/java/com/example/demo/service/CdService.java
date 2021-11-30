@@ -45,5 +45,12 @@ public class CdService {
 		cdToUpdate.setPrice(cd.getPrice()); 
 		//save updated car
 		return this.repo.save(cdToUpdate);
+	}
+		
+	public Optional<Cd> getById(Integer id) {
+		Optional<Cd> foundCar = this.repo.findById(id);
+		return foundCar;
+	}
+	
 }
-}
+

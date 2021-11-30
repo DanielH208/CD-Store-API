@@ -46,6 +46,12 @@ private CdService service;
     		return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
     	}
     }
+    
+    @PutMapping("/update/{id}")
+    public ResponseEntity<Cd> updateCd(@RequestBody Cd cd, @PathVariable Integer id) {
+    	ResponseEntity<Cd> response = new ResponseEntity<Cd>(this.service.updateCd(cd, id), HttpStatus.ACCEPTED); //202
+    	return response;
+    }
 	
 	
 }

@@ -33,5 +33,17 @@ public class CdService {
 		return !exists;
 	}
 	
-	
+	public Cd updateCd(Cd cd, Integer id) {
+		// find the car to update 
+		Optional<Cd> cdToFind = this.repo.findById(id);
+		Cd cdToUpdate = cdToFind.get();
+		// set that car with the new values
+		cdToUpdate.setCd_name(cd.getCd_name());
+		cdToUpdate.setYear_released(cd.getYear_released());
+		cdToUpdate.setArtist(cd.getArtist());
+		cdToUpdate.setGenre(cd.getGenre());
+		cdToUpdate.setPrice(cd.getPrice()); 
+		//save updated car
+		return this.repo.save(cdToUpdate);
+}
 }

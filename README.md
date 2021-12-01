@@ -1,18 +1,18 @@
 # CD-Store-API
 
-##Why are we doing this?  
+## Why are we doing this?  
 
 We are doing this to create cloud based database using a API to manage stock/inventory of a CD store. This is to make tasks like creating, reading, updating and deleting easier then managing the inventory using physical files. This means for example that the price of a CD can be found in a few clicks just by searching the ID or the artist for example. This beats having to search through physical files to find the correct information.
    
    
    
-##How I expected the challenge to go 
+## How I expected the challenge to go 
 
 I expected the challenge to go smoothly with some small hiccups as is the case with most coding projects. I expect that putting effort into time planning and manging tasks will aid a smoother development process with less unforeseen hiccups. I expect the app to be fully up and working to the criteria standard all within the allocated time frame. 
 
 
 
-##What went well? / What didn't go as planned?  
+## What went well? / What didn't go as planned?  
 
 Developing the CRUD functionality went to plan smoothly. This was due to a solid understanding of what was required for CRUD functionality. 
 
@@ -28,7 +28,7 @@ Time planning didn’t go as planned as I finished my project earlier than I ori
 
 
 
-##Possible improvements for future revisions of the project
+## Possible improvements for future revisions of the project
 
 One possible improvement for the future would be adding more customer queries to speed searches for items. For example, a query to find CD’s under a certain price would be a good improvement for a future revision.
 
@@ -38,7 +38,7 @@ Third possible improvement for the future would be adjusting the al;ocated time 
 
 
 
-##Postman screenshots
+## Postman screenshots
 
 Create CD request 
 
@@ -106,13 +106,13 @@ All requests in postman
 
 
 
-##Database Screenshot (shows persisting data) 
+## Database Screenshot (shows persisting data) 
 
 ![h2-data](https://user-images.githubusercontent.com/80534190/144251084-8b8b80d3-ebba-490f-9f80-b9aef10b233a.JPG)
 
 
 
-##Testing Screenshots 
+## Testing Screenshots 
 
 Unit testing results
 
@@ -136,7 +136,7 @@ Total program test coverage
 
 
 
-##Jira board 
+## Jira board 
 
 https://testsite726.atlassian.net/jira/software/projects/CSP/boards/3/roadmap?selectedIssue=CSP-2
 

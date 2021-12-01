@@ -1,0 +1,2 @@
+insert into cd (cd_name, year_released, artist, genre, price) values ('speed', 2019, 'ben newick', 'pop', 15.00);
+insert into cd (cd_name, year_released, artist, genre, price) values ('timeless', 1985, 'jason smith', 'rock', 11.00);

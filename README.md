@@ -1,17 +1,18 @@
 # CD-Store-API
-Why are we doing this?  
+
+##Why are we doing this?  
 
 We are doing this to create cloud based database using a API to manage stock/inventory of a CD store. This is to make tasks like creating, reading, updating and deleting easier then managing the inventory using physical files. This means for example that the price of a CD can be found in a few clicks just by searching the ID or the artist for example. This beats having to search through physical files to find the correct information.
--
--
--
-How I expected the challenge to go 
+   
+   
+   
+##How I expected the challenge to go 
 
 I expected the challenge to go smoothly with some small hiccups as is the case with most coding projects. I expect that putting effort into time planning and manging tasks will aid a smoother development process with less unforeseen hiccups. I expect the app to be fully up and working to the criteria standard all within the allocated time frame. 
--
--
--
-What went well? / What didn't go as planned?  
+
+
+
+##What went well? / What didn't go as planned?  
 
 Developing the CRUD functionality went to plan smoothly. This was due to a solid understanding of what was required for CRUD functionality. 
 
@@ -24,20 +25,20 @@ Unit testing didn’t go as planned as I wasn’t quite sure on how to unit test
 Integration testing didn’t go as planned as there was a conflict, I had missed between the test SQL-data and the data I was expecting for my tests. This conflict however was easily fixable and now means my program has a high-test coverage percentage.
 
 Time planning didn’t go as planned as I finished my project earlier than I originally planned for in my Jira board.
--
--
--
-Possible improvements for future revisions of the project
+
+
+
+##Possible improvements for future revisions of the project
 
 One possible improvement for the future would be adding more customer queries to speed searches for items. For example, a query to find CD’s under a certain price would be a good improvement for a future revision.
 
 Second possible improvement for the future would be adding another table alongside the CD table for things such as memorabilia, art or other limited-edition pieces. This is something you would see in a traditional CD store and would therefore be a good improvement for a future revision.
 
 Third possible improvement for the future would be adjusting the al;ocated time scale of the project so the project finishes more on time. This can be done easily by evaluating how accurate the previous revisions time scale was and adjusting the new revisions time scale accordingly.
--
--
--
-!Postman screenshots! 
+
+
+
+##Postman screenshots
 
 Create CD request 
 
@@ -102,16 +103,16 @@ Get CD by Artist and Release Year output
 All requests in postman 
 
 ![postman-all-request](https://user-images.githubusercontent.com/80534190/144251192-112c9dc5-ee48-446b-92f9-89a089a2de5f.JPG)
--
--
--
-Database Screenshot (shows persisting data) 
+
+
+
+##Database Screenshot (shows persisting data) 
 
 ![h2-data](https://user-images.githubusercontent.com/80534190/144251084-8b8b80d3-ebba-490f-9f80-b9aef10b233a.JPG)
--
--
--
-Testing Screenshots 
+
+
+
+##Testing Screenshots 
 
 Unit testing results
 
@@ -132,10 +133,10 @@ Integration testing coverage
 Total program test coverage
 
 ![whole-project-coverage](https://user-images.githubusercontent.com/80534190/144251673-4580cbd2-0aa8-497d-af02-959e3bc1b840.JPG)
--
--
--
-Jira board 
+
+
+
+##Jira board 
 
 https://testsite726.atlassian.net/jira/software/projects/CSP/boards/3/roadmap?selectedIssue=CSP-2
 

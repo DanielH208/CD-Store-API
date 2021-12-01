@@ -94,7 +94,7 @@ Get CD by Artist and Release Year request
 
 Get CD by Artist and Release Year output 
 
-![getByArtist-output](https://user-images.githubusercontent.com/80534190/144250838-24b1ec13-f197-4959-8f42-f0f769fbf693.JPG)
+![getByArtistReleaseYear-output](https://user-images.githubusercontent.com/80534190/144252452-bbdb42d9-fa2f-46d5-a7e9-824e27e094ac.JPG)
 
 All requests in postman 
 

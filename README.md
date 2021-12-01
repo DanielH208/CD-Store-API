@@ -4,9 +4,11 @@ Why are we doing this?
 We are doing this to create cloud based database using a API to manage stock/inventory of a CD store. This is to make tasks like creating, reading, updating and deleting easier then managing the inventory using physical files. This means for example that the price of a CD can be found in a few clicks just by searching the ID or the artist for example. This beats having to search through physical files to find the correct information.
 
 
+
 How I expected the challenge to go 
 
 I expected the challenge to go smoothly with some small hiccups as is the case with most coding projects. I expect that putting effort into time planning and manging tasks will aid a smoother development process with less unforeseen hiccups. I expect the app to be fully up and working to the criteria standard all within the allocated time frame. 
+
 
 
 What went well? / What didn't go as planned?  
@@ -22,6 +24,7 @@ Unit testing didn’t go as planned as I wasn’t quite sure on how to unit test
 Integration testing didn’t go as planned as there was a conflict, I had missed between the test SQL-data and the data I was expecting for my tests. This conflict however was easily fixable and now means my program has a high-test coverage percentage.
 
 Time planning didn’t go as planned as I finished my project earlier than I originally planned for in my Jira board.
+
 
 
 Possible improvements for future revisions of the project

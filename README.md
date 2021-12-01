@@ -118,7 +118,7 @@ Unit testing results
 
 ![unit-testing-results](https://user-images.githubusercontent.com/80534190/144251409-db849c78-a491-4cbf-b1a4-2fa465e9507c.JPG)
 
-Unit testng coverage
+Unit testing coverage
 
 ![unit-testing-coverage](https://user-images.githubusercontent.com/80534190/144251453-cab4fbab-5dab-490b-9be3-a1c96e8f33c9.JPG)
 
